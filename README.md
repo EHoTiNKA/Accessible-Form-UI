@@ -9,8 +9,10 @@ Created using:
 ## Preview
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/EHoTiNKA/Accessible-Form-UI/refs/heads/master/Accessible-Form-UI.gif" alt="preview">
+    <img src="" alt="preview">
 </div>
+| ![Описание гифки](https://raw.githubusercontent.com/EHoTiNKA/Accessible-Form-UI/refs/heads/master/Accessible-Form-UI.gif) |
+|:------------------------------:|
 
 ## Installation
 
