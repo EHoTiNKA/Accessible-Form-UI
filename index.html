@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accessible Form UI</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <div class="mainPage">
+      <div class="logIN-UI-Box">
+        <div class="logIN-UI-Box-LeftSide">
+          <p>Full Name</p>
+          <input
+            type="text"
+            class="logIN-UI-Box-LeftSide-InfoInput"
+            placeholder="What should we call you?"
+          />
+          <p>Email</p>
+          <input
+            type="text"
+            class="logIN-UI-Box-LeftSide-InfoInput"
+            placeholder="Enter your email"
+          />
+          <p>Enter Password</p>
+          <div class="logIN-UI-Box-LeftSide-PasswordInput">
+            <input
+              id="passwordInput"
+              class="inputField"
+              placeholder="Now we need your password"
+            />
+            <button id="isPasswordVisible">
+              <img alt="eye" class="eye" />
+            </button>
+          </div>
+          <p>Enter Password</p>
+          <div class="logIN-UI-Box-LeftSide-PasswordInput">
+            <input
+              id="repeatPasswordInput"
+              class="inputField"
+              placeholder="Please confirm the password"
+            />
+            <button id="isRepeatPasswordVisible">
+              <img alt="eye" class="eye" />
+            </button>
+          </div>
+          <button class="logIN-UI-Box-UpdateButton">Update Profile</button>
+        </div>
+
+        <div class="logIN-UI-Box-RightSide">
+          <div class="progress-circle">
+            <svg width="100" height="100">
+              <circle
+                cx="50"
+                cy="50"
+                r="45"
+                stroke="#d3d3d3"
+                stroke-width="10"
+                fill="none"
+              />
+              <circle
+                id="progressCircle"
+                class="progress"
+                cx="50"
+                cy="50"
+                r="45"
+                stroke-width="10"
+                fill="none"
+                stroke-dasharray="283"
+                stroke-dashoffset="283"
+              />
+            </svg>
+          </div>
+          <p>Profile Completeness</p>
+          <ul class="logIN-UI-Box-RightSide-TaskList">
+            <li>Enter name</li>
+            <li>Enter email</li>
+            <li>Enter password</li>
+            <li>Confirm pasword</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./isPasswordVisible.js" type="text/javascript"></script>
+    <script src="./progressBar.js" type="text/javascript"></script>
+    <script src="./progressList.js" type="text/javascript"></script>
+  </body>
+</html>

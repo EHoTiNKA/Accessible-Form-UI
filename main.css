@@ -1,0 +1,243 @@
+/* Reset and base styles  */
+* {
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Links */
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside,
+nav,
+footer,
+header,
+section,
+main {
+    display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+img,
+svg {
+    max-width: 100%;
+    height: auto;
+}
+
+address {
+    font-style: normal;
+}
+
+/* Form */
+
+input,
+textarea,
+button,
+select {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button,
+input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    /* background: none; */
+    cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+label {
+    cursor: pointer;
+}
+
+legend {
+    display: block;
+}
+
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 26px;
+}
+
+.logIN-UI-Box {
+
+    display: flex;
+
+    margin: 20% auto;
+    padding: 10px;
+    border: 3px solid, black;
+    border-radius: 25px;
+}
+
+.logIN-UI-Box-LeftSide {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.logIN-UI-Box-LeftSide-InfoInput {
+    border: 1px solid rgba(31, 30, 30, 0.808);
+    border-radius: 5px;
+    height: 3rem;
+    padding-left: 5px;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.logIN-UI-Box-LeftSide-PasswordInput {
+    /* position: relative; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 1px solid rgba(31, 30, 30, 0.808);
+    border-radius: 5px;
+    height: 3rem;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.eye {
+    /* position: absolute; */
+    max-width: 35px;
+    padding: 5px;
+}
+
+.inputField {
+    padding-left: 5px;
+}
+
+.logIN-UI-Box-UpdateButton {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border: 1px solid rgba(17, 17, 17, 0.705);
+    background-color: rgb(32, 32, 32);
+    border-radius: 10px;
+    color: aliceblue;
+
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Анимация */
+}
+
+.logIN-UI-Box-UpdateButton:hover {
+  background-color: rgb(83, 83, 83); 
+  transform: scale(1.05);
+}
+
+.logIN-UI-Box-UpdateButton:active {
+  transform: scale(0.95);
+}
+
+.logIN-UI-Box-RightSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.progress-circle {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-circle circle:first-of-type {
+    stroke: rgba(207, 207, 207, 0.651);
+}  
+  
+svg {
+    transform: rotate(-90deg);
+}
+  
+circle {
+    transition: stroke-dashoffset 0.5s ease;
+}
+
+.progress {
+stroke: #757575;
+transition: stroke-dashoffset 0.5s ease;
+}
+    
+
+.logIN-UI-Box-RightSide-TaskList {
+    /* flex-grow: 1; */
+    height: 60%;
+    margin: 25px;
+    padding: 15px;
+
+    border: 1px solid rgba(207, 207, 207, 0.651);
+    border-radius: 15px;
+    background-color: rgba(207, 207, 207, 0.651);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
