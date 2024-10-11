@@ -8,7 +8,9 @@ Created using:
 
 ## Preview
 
-![Preview](https://raw.githubusercontent.com/EHoTiNKA/Accessible-Form-UI/refs/heads/master/Accessible-Form-UI.gif)
+<div style="text-align: center;">
+    <img src="https://raw.githubusercontent.com/EHoTiNKA/Accessible-Form-UI/refs/heads/master/Accessible-Form-UI.gif" alt="preview">
+</div>
 
 ## Installation
 
