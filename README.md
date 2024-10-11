@@ -8,7 +8,7 @@ Created using:
 
 ## Preview
 
-![](http://i.imgur.com/OUkLi.gif)
+![]([http://i.imgur.com/OUkLi.gif](https://github.com/EHoTiNKA/Accessible-Form-UI/blob/master/Accessible-Form-UI.gif))
 
 ## Installation
 
