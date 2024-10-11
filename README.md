@@ -9,7 +9,7 @@ Created using:
 ## Preview
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/EHoTiNKA/Accessible-Form-UI/refs/heads/master/Accessible-Form-UI.gif" width="100"/>
+  <img src="https://raw.githubusercontent.com/EHoTiNKA/Accessible-Form-UI/refs/heads/master/Accessible-Form-UI.gif"/>
 </div>
 
 ## Installation
