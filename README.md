@@ -19,7 +19,7 @@ To transfer the project to yourself, follow these steps:
 1. Clone the repository:
 
 ```
-git clone https://github.com/your-username/Accessible-Form-UI.git .
+git clone https://github.com/EHoTiNKA/Accessible-Form-UI.git .
 ```
 
 ## Contributing
